@@ -2,17 +2,17 @@ package com.evpmqr.tta.arithmetic;
 
 import com.evpmqr.tta.interfaces.Operator;
 
-public class OperatationHandler {
+public class OperationHandler {
 
     private Operator operator;
 
-    public OperatationHandler(){}
+    public OperationHandler(){}
 
-    public OperatationHandler(Operator operator) {
+    public OperationHandler(Operator operator) {
         this.operator = operator;
     }
 
-    public OperatationHandler setOperator(Operator operator) {
+    public OperationHandler setOperator(Operator operator) {
         this.operator = operator;
         return this;
     }
